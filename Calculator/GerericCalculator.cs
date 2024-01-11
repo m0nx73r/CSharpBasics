@@ -1,11 +1,10 @@
 ﻿
 namespace Calculator
 {
-     class CalculatorFunctions
+     class GenericCalculator
     {
         public static dynamic Add<t1, t2>(t1 a, t2 b)
         {
-
             int n1, n2;
             double d1, d2;
             if (int.TryParse(a.ToString(), out n1) && int.TryParse(b.ToString(), out n2))
